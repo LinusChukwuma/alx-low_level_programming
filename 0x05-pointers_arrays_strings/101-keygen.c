@@ -47,8 +47,9 @@ int main(void)
 				}
 			}
 		}
+	
 		printf("%s", password);
 		return (0);
 	}
-	return (num * sign);
+	return (sum * sign);
 }
