@@ -6,7 +6,7 @@
  * main - Generates random valid passwords for the
  * program 101-crackme.
  *
- * Return: Always 0.
+ * * Return: Always 0.
  */
 int main(void)
 {
@@ -40,16 +40,13 @@ int main(void)
 		}
 		for (index = 0; password[index]; index++)
 		{
-			if (password[index] >= (33 + diff_half2)){
-				{
-					password[index] -= diff_half2;
-					break;
-				}
+			if (password[index] >= (33 + diff_half2))
+			{
+				password[index] -= diff_half2;
+				break;
 			}
 		}
-	
-		printf("%s", password);
-		return (0);
 	}
-	return (sum * sign);
+	printf("%s", password);
+	return (0);
 }
