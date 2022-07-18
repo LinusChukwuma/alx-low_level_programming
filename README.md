@@ -1,1 +1,1 @@
-This is about function and pointers
+This is about more singly linked list
