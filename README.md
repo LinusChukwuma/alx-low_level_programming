@@ -1,1 +1,1 @@
-This is about more singly linked list
+This is about doubly linked list
